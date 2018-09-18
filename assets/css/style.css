@@ -87,7 +87,7 @@ body {
     margin-right: auto;
 	height:200px; 
 	width: 200px;
-	border-radius: 50%;
+	border-radius: 10%;
 	margin-top: 150px;
 }
 
@@ -113,7 +113,7 @@ body {
 }
 
 #projects-banner {
-	background-color: #FFD447;
+	background-color: #160C28;
 	width: 100%;
 	min-height: 900px; 
 	padding: 450px;
@@ -139,12 +139,12 @@ body {
 }
 
 #skills-banner {
-	background-color: #AEB7B3;
+	background-color: #160C28;
 	width: 100%;
 	min-height: 900px; 
 	padding: 450px;
 
-	color: black;
+	color: white;
 	font-size: 500px;
 	text-align: center;
 }
@@ -152,7 +152,7 @@ body {
 #skills{
 	background-color: #AEB7B3;
 	width: 100%;
-	min-height: 900px; 
+	min-height: 500px; 
 	padding: 30px;
 
 	color: black;
@@ -172,11 +172,6 @@ body {
 
 
 
-.footer {
-	height: 50px;
-	background-color: #FFD447;
-	text-align: center;
-}
 
 
 .skillbox {
@@ -193,7 +188,7 @@ body {
 	color: red;
 }*/
 .progress-row {
-	padding-top: 80px;
+	padding: 50px;
 }
 
 #html-bar {
@@ -224,8 +219,54 @@ body {
 
 
 
+.contact-row {
+	color: white;
+	padding: 20px;
+}
+
+a:link,
+a:visited,
+a:active {
+	color: white;
+}
 
 
+#facebook-icon:hover {
+	color: #3B5998;
+}
+
+#ig-icon:hover {
+	color: #833AB4;
+}
+
+#twitter-icon:hover {
+	color: #1DA1F2;
+}
+
+#mail-link:link,
+#mail-link:visited,
+#mail-link:active {
+	color: white;
+}
+
+#mail-link:hover {
+	color: #EC840C;
+}
+
+h4 {
+	color:white;
+}
+
+.yellow-line{
+	background-color: #FFD447;	
+}
+
+.footer {
+	height: 50px;
+	background-color: #FFD447;
+	padding-top: 10px;
+	text-align: center;
+}
 
 
 
