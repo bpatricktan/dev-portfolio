@@ -231,6 +231,8 @@ a:active {
 }
 
 
+
+
 #facebook-icon:hover {
 	color: #3B5998;
 }
@@ -241,6 +243,10 @@ a:active {
 
 #twitter-icon:hover {
 	color: #1DA1F2;
+}
+
+#linkedin-icon:hover {
+	color: #0077B5;
 }
 
 #mail-link:link,
