@@ -6,16 +6,14 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
 	
-	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 	<link rel="stylesheet" type="text/css" href="./assets/css/bootstrap.css">
+
+	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 	
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+	<link rel="stylesheet" type="text/css" href="./assets/css/animate.css">
 	
-	<script src="http://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
-
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-
-	<script type="text/javascript" src="./assets/js/bootstrap.js"></script>
 
 	
 
@@ -25,24 +23,30 @@
 </head>
 <body>
 
+	<section class="jumbotron mb-0" id="portfolio-jumbotron">
+		<h1 class="text-center animated fadeInDown" id="portfolio-landing">BRYAN PATRICK TAN</h1>
+		<h4 class="pt-1 text-center animated fadeIn delay-1s" id="portfolio-sub">WRITER | WEB DEVELOPER</h4>
+	</section>
 
 
-	<header>
-		
-		<nav class="navbar navbar-expand-lg navbar-dark ">
-		<a href="#" class="brand-name navbar-brand">BPTan</a>
+
+	<!-- end of jumbotron -->
+
+	<div class="container-fluid px-0"> 
+		<nav class="navbar navbar-expand-lg navbar-light  sticky-top">
+			<a id="brand" href="#" class="navbar-brand" id="brand">BPTan</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent"><span class="navbar-toggler-icon"></span></button>
 
 			<div class="collapse navbar-collapse" id="navbarContent">
 				<ul class="navbar-nav ml-auto">
 					<li class="nav-item">
-						<a href="#aboutme" class="nav-link">About</a>
+						<a href="#about" class="nav-link">About</a>
 					</li>
 					<li class="nav-item">
-						<a href="#projects" class="nav-link">Projects</a>
+						<a href="#projects-main" class="nav-link">Projects</a>
 					</li>
 					<li class="nav-item">
-						<a href="#skills" class="nav-link">Skills</a>
+						<a href="#skills-main" class="nav-link">Skills</a>
 					</li>
 					<li class="nav-item">
 						<a href="#contact" class="nav-link">Contact</a>
@@ -51,50 +55,66 @@
 			</div>
 		</nav>
 
-	</header>
-	
-	<main>
-		
-		<section id="banner">
-			 <div class="hero col-sm-12 col-md-12 col-lg-12 ">
-				<h1>Bryan Patrick Tan</h1>
-				<h5>Writer | Web Developer</h5>
-			</div>	
-		</section>
-
-
-		<section id="aboutme">
-			<div class="row">
-				<div id="leftrow" class="col-sm-12 col-md-6 col-lg-6">
-					<img id="me-pic" src="./assets/img/me.jpg">
-				</div>		
-				<div id="rightrow" class="col-sm-12 col-md-6 col-lg-6">
-					<p class="about">Born and raised in the desert with a passion for story telling set out on a journey to become a full stack web developer.</p>
-				</div>		
-				
-			</div>
+		<section id="about">
+			
 		</section>
 
 		<section id="projects-banner">
 			<div class="col-sm-12 col-md-12 col-lg-12">
-				<h2>Pojects</h2>
+				<h2 id="projects-head" class="text-center">PROJECTS</h2>
 			</div>
 		</section>
 
-		<section id="projects">
+		<section id="projects-main">
 			<div class="col-sm-12 col-md-12 col-lg-12" >
+				<div class="row">
+					
+					<div id="project-card-1" class="card col-12 col-sm-6 col-md-6 col-lg-6 px-0">
+						<img class="card-img-top" src="./assets/img/no-page2-sm.jpg" alt="Card image cap">
+						<div class="card-body">
+							<h5 class="card-title">Capstone Project 1</h5>
+							<p class="card-text">Some quick example text to build on the Capstone Project and make up the bulk of the card's content.</p>
+							<a href="#" class="btn btn-dark">Go somewhere</a>
+						</div>
+					</div>
 
+				</div>
+
+				<div class="row">
+
+					<div id="project-card-2" class="card col-12 col-sm-6 offset-sm-6 col-md-6 offset-md-6 col-lg-6 offset-lg-6 px-0">
+						<img class="card-img-top" src="./assets/img/no-page2-sm.jpg" alt="Card image cap">
+						<div class="card-body">
+							<h5 class="card-title">Capstone Project 2</h5>
+							<p class="card-text">Some quick example text to build on the Capstone Project and make up the bulk of the card's content.</p>
+							<a href="#" class="btn btn-dark">Go somewhere</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+
+					<div id="project-card-3" class="card col-12 col-sm-6 col-md-6 col-lg-6 px-0">
+						<img class="card-img-top" src="./assets/img/no-page2-sm.jpg" alt="Card image cap">
+						<div class="card-body">
+							<h5 class="card-title">Capstone Project 3</h5>
+							<p class="card-text">Some quick example text to build on the Capstone Project and make up the bulk of the card's content.</p>
+							<a href="#" class="btn btn-dark">Go somewhere</a>
+						</div>
+					</div>
+
+
+				</div>
 			</div>
 		</section>
 
 		<section id="skills-banner">
 			<div class="col-sm-12 col-md-12 col-lg-12">
-				<h2>Skills</h2>
+				<h2 id="skills-head" class="text-center">SKILLS</h2>
 			</div>
 		</section>
 
-		<section id="skills">
-			
+		<section id="skills-main">
 			<div class="col-sm-12 col-md-12 col-lg-12" >
 				<div class="row progress-row">
 					<div class="progress-row col-lg-8 offset-lg-2">				
@@ -126,66 +146,78 @@
 				</div>
 			</div>
 		</section>
-			
 
 		<section id="contact">
-		<div class="row contact-row">
-			<!-- Contact -->
-			<div class="col-sm-4 col-md-4 col-lg-4">
+			<div class="col-sm-12 col-md-12 col-lg-12" >
+				<div class="row contact-row">
+					<!-- Contact -->
+					<div class="col-12 col-sm-12 col-md-6 col-lg-6 text-center">
 
-				<h4>Contact Me</h4>
-				<hr class="yellow-line">
-				<p>Bryan Patrick O. Tan</p>
-				<p><i class="fas fa-mobile-alt"></i> (+63)&middot;0906&middot;419&middot;6275</p><p><i class="fas fa-mobile-alt"></i> (+63)&middot;2&middot;535&middot;0550</p>
-				<p><i class="fas fa-envelope"></i><a id="mail-link" href="https://mail.google.com" target="_blank"> bpatricktan@gmail.com</a></p>
-				
-
-			</div>
-
-			<!-- Social Media -->
-			<div class="col-sm-4 col-md-4 col-lg-4">
-				<h4>Social Media</h4>
-				<hr class="yellow-line">
-				
-				<span class="col-lg-3">
-				<a id="facebook-icon" href="https://www.facebook.com"><i class="fab fa-facebook fa-3x" target="_blank"></i></a>
-				</span>
-				<span class="col-lg-3">
-					<a  id="ig-icon" href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram fa-3x"></i></a>
-				</span>
-				<span class="col-lg-3">
-					<a id="twitter-icon" href="https://twitter.com" target="_blank"><i class="fab fa-twitter-square fa-3x"></i></a>
-				</span>
-				<span class="col-lg-3">
-					<a id="linkedin-icon" href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin fa-3x"></i></a>
-				</span>
-				
-
-			</div>
+						<h4>Contact Me</h4>
+						<hr class="border-line">
+						<p>Bryan Patrick O. Tan</p>
+						<p><i class="fas fa-mobile-alt"></i> (+63)&middot;0906&middot;419&middot;6275</p><p><i class="fas fa-mobile-alt"></i> (+63)&middot;2&middot;535&middot;0550</p>
+						<p><i class="fas fa-envelope"></i><a id="mail-link" href="https://mail.google.com" target="_blank"> bpatricktan@gmail.com</a></p>
 
 
+					</div>
 
-			<!-- Location -->
-			<div class="col-sm-4 col-md-4 col-lg-4">
-				<h4>Location</h4>
-				<hr class="yellow-line">
-				<!-- <h5>Address:</h5> -->
-				<!-- <p>3rd floor, Trinoma, North Avenue corner, Epifanio de los Santos Ave, Quezon City, Metro Manila</p> -->
+					<!-- Social Media -->
+					<div class="col-12 col-sm-12 col-md-6 col-lg-6 text-center">
+						<h4>Social Media</h4>
+						<hr class="border-line mb-5">
 
+						<div class="row"></div>
+						<span class="col-12 col-sm-12 col-md-6 col-lg-3 text-center px-2">
+							<a id="facebook-icon" href="https://www.facebook.com"><i class="fab fa-facebook fa-4x" target="_blank"></i></a>
+						</span>
+						<span class="col-12 col-sm-12 col-md-6 col-lg-3 text-center px-2">
+							<a  id="ig-icon" href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram fa-4x"></i></a>
+						</span>
+						<span class="col-12 col-sm-12 col-md-6 col-lg-3 text-center px-2">
+							<a id="twitter-icon" href="https://twitter.com" target="_blank"><i class="fab fa-twitter-square fa-4x"></i></a>
+						</span>
+						<span class="col-12 col-sm-12 col-md-6 col-lg-3 text-center px-2">
+							<a id="linkedin-icon" href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin fa-4x"></i></a>
+						</span>
+					</div>
+
+
+				</div>
+
+
+
+				<!-- Location -->
+				<div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center mt-5">
+					<h4>Location</h4>
+					<hr class="border-line">
+					<!-- <h5>Address:</h5> -->
+					<p id="address">Clairmont Townhomes, Acacia lane, Brgy. Hagdan-Bato Libis<br>Mandaluyong City, Philippines</p>
+
+				</div>
 			</div>
 		</section>
 
-	</main>
-
-	<footer>
-		<div class="footer">
-
-				<p>Bryan Patrick Tan | @2018</p>
-				
-		</div>
+		<section class="footer text-center">
+			<a id="footer-txt" href="#portfolio-jumbotron">BRYAN PATRICK TAN | &copy; 2018</a>
+		</section>
+	</div>
 
 
-	</footer>
+
+
+
+
+
+
+
+
+
+	<script src="http://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+	<script type="text/javascript" src="./assets/js/bootstrap.js"></script>
 
 </body>
 </html>
